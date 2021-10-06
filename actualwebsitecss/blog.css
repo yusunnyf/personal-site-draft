@@ -1,0 +1,189 @@
+/*header & nav for all pages*/
+html{
+    background-color: #dbbcb9;
+}
+.header {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-image:url(../image/header.png);
+    background-position: 0px 375px;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Birthstone Bounce', cursive;
+    font-size:48px;
+    text-align:center;
+    color: #002A32; 
+    text-shadow:2px 2px 5px rosybrown;
+}
+
+header h1 a{
+    font-family: 'Birthstone Bounce', cursive;
+    font-size:48px;
+    text-align:center;
+    color: #002A32;
+    text-shadow: 2px 2px 5px rosybrown;
+    text-decoration: none;
+}
+
+h1 a:visited, a:link, a:active{
+    font-family: 'Birthstone Bounce', cursive;
+    font-size:48px;
+    text-align:center;
+    color: #002A32;
+}
+
+h1 a:hover{
+    font-family: 'Birthstone Bounce', cursive;
+    font-size:48px;
+    text-align:center;
+    color: rosybrown;
+    text-shadow: 2px 2px #002A32;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin:0;
+    overflow:hidden;  
+    position:sticky;
+    top:0;
+    text-align: center;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    padding: 15px 50px;
+    display: block;
+    text-decoration: none;
+    color:rosybrown;
+    font-family: 'Nunito', sans-serif;
+    font-size:18px;
+}
+
+.nav li a:hover{
+    transition:0.4s;
+    color: white;
+    font-size:18px;
+    text-shadow: 2px 2px 5px #9E4A70, 0px 0px 5px #FFD3DA;
+}
+
+.main {
+    padding: 200px;
+    margin-top: 100px;
+    height: 1500px;
+  }
+
+.main-area {
+    text-indent: 20px;
+    width: 50%;
+    float: left;
+    text-align: justify;
+    background-color:peachpuff;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+}
+.audio-box {
+    width: 30%;
+    position:fixed;
+    top:8%;
+    padding-right:5%;
+    padding-left:5%;
+    padding-top: 0px;
+    box-sizing: border-box;
+    opacity: 0.6;
+}
+
+audio:hover{
+    filter:drop-shadow(2px 2px 2px #000000)
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.side-bar {
+    width: 45%;
+    float: right;
+    background-color:#F5B7B1;
+    padding-right:5%;
+    padding-left:5%;
+    text-align:justify;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    font-size:14px;
+    background-color: rosybrown;
+    color:white;
+    padding-top:20px;
+    margin:-10px;
+    height:80px;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+/* end of header & nav for all pages*/
+
+.sprite ul{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.sprite li{
+    list-style:none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+.sprite li a{
+    display: block;
+    width:200px;
+    height:200px;
+    background-image:url(../image/sprite.png);
+    color:rgba(255, 255, 255, 0);
+}
+.sprite-cook a:hover{
+    background-position: -200px 800px
+}
+.sprite-art a{
+    background-position: 0 600px
+}
+.sprite-art a:hover{
+    background-position: -200px 600px
+}
+.sprite-nyc a{
+    background-position: 0 400px
+}
+.sprite-nyc a:hover{
+    background-position: -200px 400px
+}
+.sprite-write a{
+    background-position: 0 200px
+}
+.sprite-write a:hover{
+    background-position: -200px 200px
+}
+
